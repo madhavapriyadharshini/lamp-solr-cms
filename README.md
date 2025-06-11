@@ -1,0 +1,1 @@
+# lamp-solr-cms
