@@ -1,0 +1,9 @@
+<schema name="cms" version="1.6">
+  <fields>
+    <field name="id" type="string" indexed="true" stored="true" required="true"/>
+    <field name="title" type="text_general" indexed="true" stored="true"/>
+    <field name="body" type="text_general" indexed="true" stored="true"/>
+    <field name="created_at" type="date" indexed="true" stored="true"/>
+  </fields>
+  <uniqueKey>id</uniqueKey>
+</schema>
